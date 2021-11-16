@@ -13,4 +13,4 @@ title: About Me
 
 
 # About Me
-<embed src="https://trailblazed.github.io/Sarada_Tadepalli.pdf" width="100%" height="850px"/>
+<embed src="https://trailblazed.github.io/Sarada_Tadepalli.pdf" width="100%" height="600px"/>
