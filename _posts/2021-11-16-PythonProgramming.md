@@ -5,7 +5,7 @@ title: Python Programming
 
 ## Python Programming
 
-### 1. Introduction ({{ site.baseurl }}{% post_url ../_posts/1.Introduction %})
+### 1. [Introduction]({{ site.baseurl }}{% post_url ../_posts/2021-11-16-Introduction %})
 ### 2. Conditional Statements 
 ### 3. Functions
 ### 4. Strings & Lists
