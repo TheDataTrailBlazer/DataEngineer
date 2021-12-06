@@ -5,4 +5,4 @@ title: Python Introduction
 
 
 
-<embed src="../1.Introduction.pdf" width="900px" height="1000px"/>
+<embed src="https://trailblazed.github.io/_posts/1.Introduction.pdf" width="900px" height="1000px"/>
