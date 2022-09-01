@@ -70,6 +70,7 @@ class Rectangle
    
  }
  }
+ </pre>
  ### Result: 
 Rectangle 1 area:  120.0
 Rectangle 2 area:  22.0
@@ -79,5 +80,6 @@ Rectangle 2 area:  22.0
 Rectangle rec1=new Rectangle();
 rec1=rec2;
 </pre>
+
 - both rec1 and rec2 will be pointing to the same object. Assignment operator will not allocate new memory. 
 
