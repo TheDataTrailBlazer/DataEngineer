@@ -33,7 +33,7 @@ class Main
 Sqaure value: 100 <br>
 Addition value: 30
 ## Overloading Constructors
-- If the required variables are not initalized properly then overloading the constructor will handle the exceptions.
+- If the required variables are not initalized properly then overloading the constructor will handle the improper initialization.
 ## Example:
 <pre>
 class Op
