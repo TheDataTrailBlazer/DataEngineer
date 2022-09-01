@@ -19,14 +19,6 @@ class <i>classname {
     </i>
 }
 </pre>
-
-## Object
-Object is the instance of the class.
-#### Definitions:
-- The data or varialbes declared in the class are called as the *instance variables.*
-- Code is written in *function or method.*
-- Instance variables and methods together are called *members* of a class.
-
 ### Example for class creation
 <pre>
 class Rectangle
@@ -36,8 +28,22 @@ class Rectangle
    
 }
 </pre>
+
+## Object
+Object is the instance of the class.
+
 ### Example for the object creation
 Rectangle rec = new Rectangle();
+### new operator
+- Dynamically allocates memory for the object. The memory is allocated at the runtime. Any number of objects can be created. If memory is not sufficient then the new will rise runtime exception.
+
+## Important Definitions:
+- The data or varialbes declared in the class are called as the *instance variables.*
+- Code is written in *function or method.*
+- Instance variables and methods together are called *members* of a class.
+- Class is a logic construct and the object is physical reality.
+
+
 
 #### Example with 2 objects for a class.
 <pre>
@@ -67,4 +73,11 @@ class Rectangle
  ### Result: 
 Rectangle 1 area:  120.0
 Rectangle 2 area:  22.0
+
+## Assigning object reference variables
+<pre>
+Rectangle rec1=new Rectangle();
+rec1=rec2;
+</pre>
+- both rec1 and rec2 will be pointing to the same object. Assignment operator will not allocate new memory. 
 
