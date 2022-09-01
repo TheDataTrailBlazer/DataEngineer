@@ -72,7 +72,7 @@ class Rectangle
  }
  </pre>
  ### Result: 
-Rectangle 1 area:  120.0
+Rectangle 1 area:  120.0 <br>
 Rectangle 2 area:  22.0
 
 ## Assigning object reference variables
