@@ -85,4 +85,7 @@ class Rectangle
       }
  }
  </pre>
+ ### Result
+Rectangle 1 area:  200.0 <br>
+Rectangle 1 perimeter method:  60.0
 
