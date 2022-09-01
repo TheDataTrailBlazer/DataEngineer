@@ -126,6 +126,11 @@ class Rectangle
  }
  }
 </pre>
+### Result:
+Rectangle 1 area:  120.0 <br>
+Rectangle 1 perimeter method:  44.0 <br>
+Rectangle 2 area:  22.0 <br>
+Rectangle 2 perimeter method:  26.0 <br>
 ## Method that takes parameters
 <pre>
 class Square
