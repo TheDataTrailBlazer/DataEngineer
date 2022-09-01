@@ -81,5 +81,73 @@ Rectangle rec1=new Rectangle();
 rec1=rec2;
 </pre>
 
-- both rec1 and rec2 will be pointing to the same object. Assignment operator will not allocate new memory. 
+- Both rec1 and rec2 will be pointing to the same object. Assignment operator will not allocate new memory. 
+## Methods or functions
+### Systax:
+<pre>
+type name(parameter-list){
+//body of method
+</pre>
+- *type* is the type of the data returned by method. If nothing to be returned then the type should be *void*.
+- If the method is returning any value then the function should end with <br>
+   return *value*;
+   
+### Example adding methods to Rectangle
+<pre>
+class Rectangle
+{
+   double width;
+   double height;
+  double perimeter()
+  {
+    double p= 2*(width+height);
+    return p;
+  }
+ }
+ class Main
+ {
+ public static void main(String args[])
+ {
+   Rectangle rec1=new Rectangle();
+   Rectangle rec2=new Rectangle();
+   double vol;
+   rec1.width=12;
+   rec1.height=10;
+    vol=rec1.width * rec1.height; 
+   System.out.println("Rectangle 1 area:  "+vol);
+   System.out.println("Rectangle 1 perimeter method:  "+rec1.perimeter());
+   
+   rec2.width=2;
+   rec2.height=11;
+    vol=rec2.width * rec2.height; 
+   System.out.println("Rectangle 2 area:  "+vol);
+   System.out.println("Rectangle 2 perimeter method:  "+rec2.perimeter());
+     
+ }
+ }
+</pre>
+## Method that takes parameters
+<pre>
+class Square
+{
+   double width;
+   double area(double w)
+  {
+     width=w;
+    double p= width*width;
+    return p;
+  }
+ }
+ class Main
+ {
+ public static void main(String args[])
+ {
+   Square s1=new Square();
+     System.out.println("Square are: "+s1.area(10.0));
+      
+ }
+ }
+ </pre>
+ ### Result
+ Square are: 100.0
 
