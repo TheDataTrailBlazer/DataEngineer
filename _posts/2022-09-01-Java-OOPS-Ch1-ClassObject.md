@@ -10,8 +10,13 @@ class <i>classname {
     type function1(parameter-list){
     
         *body of the function1*
-    </i>
+    
     }
+    type function2(parameter-list){
+    
+        *body of the function1*
+    
+    </i>
 }
 </pre>
 ## Object
